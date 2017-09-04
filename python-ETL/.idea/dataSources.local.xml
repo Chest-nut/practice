@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - python_etl@localhost" uuid="c66ba5fe-d0da-4f0c-b238-9608b90e2e07">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>python_etl.*</schema-pattern>
+      <default-schemas>python_etl.*</default-schemas>
+    </data-source>
+  </component>
+</project>

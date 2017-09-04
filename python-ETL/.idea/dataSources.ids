@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - python_etl@localhost" uuid="c66ba5fe-d0da-4f0c-b238-9608b90e2e07">
+    <database-info product="MySQL" version="5.7.17-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="python_etl"/>
+      <table id="2" parent="1" name="ipdata"/>
+      <column id="3" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="4" parent="2" name="startip">
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="5" parent="2" name="endip">
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="6" parent="2" name="address">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="7" parent="2" name="carrier">
+        <data-type>varchar(150)</data-type>
+      </column>
+      <index id="8" parent="2" name="starip_index">
+        <columns>startip</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="9" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
