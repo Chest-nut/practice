@@ -11,8 +11,8 @@ class Mailhelper(object):
     def __init__(self):
 
         self.mail_host="smtp.qq.com"         #设置服务器
-        self.mail_user="383105690@qq.com"    #用户名
-        self.mail_pass="zfjatwahrljfcaeb"    #第三方授权码
+        self.mail_user="xxx@qq.com"          #用户名
+        self.mail_pass="xxx"                 #第三方授权码
         # self.mail_postfix="qq.com"         #发件箱的后缀
 
     def send_mail(self,to_list,sub,content):
