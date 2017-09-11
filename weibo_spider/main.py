@@ -32,7 +32,7 @@ class Helper(object):
 
 # 发送邮件到指定邮箱
     def send_mail(self):
-        to_list = ['383105690@qq.com']  # 接收方邮箱
+        to_list = ['xxx@qq.com']      # 接收方邮箱
         sub = u'微博更新'              # 邮件标题
         if self.mail_helper.send_mail(to_list, sub, self.content):
             print u'发送成功！'
@@ -42,7 +42,7 @@ class Helper(object):
 # 关注对象的微博主页url（手机版微博）
 url = 'http://weibo.cn/u/2862532004'
 
-cook = {'Cookie':'''_T_WM=519253340f3c50da99c36e07bdb54381; ALF=1507633127; SCF=AmORMVNPTscaOPcFLwW7li7FEtCMzxlRSKWgkmAzXDgo5wXiDYRn99djd9oYepODkOh3hEvL4xwKzeb1GtVWUSE.; SUB=_2A250sWq3DeRhGeNG7FAY-SfJzzWIHXVUWnb_rDV6PUNbktBeLRnZkW1f2ERE8CAUp3wsrJMncjRdBemEmA..; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhwcXR6uSvYnrfYOoEzgsoj5JpX5KMhUgL.Fo-RS0z41K.fSh.2dJLoI0qLxK-LBoMLBKqLxK-L1h-L1hnLxKML1KBL1-qLxKBLBonLBoqLxK-L1hnLBK.LxK-LBKnL1h2t; SUHB=0laFqcdG4MYS_N; SSOLoginState=1505041127'''}
+cook = {'Cookie':'''xxx'''}
 
 if __name__ == '__main__':
     helper = Helper(url, cook)
