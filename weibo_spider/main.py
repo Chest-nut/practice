@@ -45,8 +45,8 @@ class Helper(object):
     def send_mail(self):
     """发送邮件到指定邮箱"""
     
-        to_list = ['383105690@qq.com']  # 接收方邮箱
-        sub = u'微博更新'               # 邮件标题
+        to_list = ['xxx@qq.com']      # 接收方邮箱
+        sub = u'微博更新'             # 邮件标题
         if self.mail_helper.send_mail(to_list, sub, self.content):
             print u'发送成功！'
         else:
